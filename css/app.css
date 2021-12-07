@@ -1,0 +1,114 @@
+/* HELPERS */
+
+.padding-top {
+    padding-top: 55px;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background-color: rgba(240, 225, 145, 0.445);
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: #73aedb;
+    text-align: center;
+    color: #edfc64;
+    font-size: 3em;
+    height: 400px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: rgb(212, 227, 231);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.ending-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ending-form input {
+    margin: 25px;
+    font-size: 1.1em;
+}
+
+.ending-form label {
+    font-weight: bold;
+}
+
+.ending-form input,
+label {
+    font-weight: bold;
+    height: 45px;
+    width: 300px;
+}
+
+.btn {
+    width: 150px;
+    height: 70px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.btn-start {
+    background-color: #ffc107;
+}
+
+.btn-yes {
+    background-color: #28a746bb;
+}
+
+.btn-no {
+    background-color: #ff0019bd;
+}
+
+.btn-add-guess {
+    background-color: #fd7e14;
+    width: 250px;
+    color: white;
+}
+
+.modal {
+    overflow-y: hidden;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #73aedb;
+    text-align: center;
+    color: #edfc64;
+    font-size: 2rem;
+    width: 400px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal button {
+    font-size: 1rem;
+    background-color: #edfc64;
+    width: 30px;
+    height: 30px;
+}
